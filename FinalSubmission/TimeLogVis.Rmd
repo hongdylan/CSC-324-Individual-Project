@@ -1,0 +1,35 @@
+---
+title: "Time Log Analysis"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(dplyr)
+library(lubridate)
+time_log <- read.csv(("/Users/dylanhong/Desktop/CSC-324/CSC-324-Individual-Project/TimeLog.csv"), stringsAsFactors = FALSE)
+time_log$Date <- as.Date(time_log$Date, format="%Y-%m-%d")
+```
+
+
+```{r}
+# Summarize total time spent by task type
+time_summary <- time_log %>%
+  group_by(TaskType) %>%
+  summarise(Total_Time = sum(`TimeSpentminutes`)) %>%
+  mutate(Proportion = Total_Time / sum(Total_Time))
+
+# Create the pie chart
+pie <- ggplot(time_summary, aes(x="", y=Proportion, fill=TaskType)) +
+  geom_bar(width = 1, stat = "identity") +
+  coord_polar("y", start=0) +
+  theme_void() +
+  theme(legend.title = element_blank()) +
+  labs(fill="Task Type", title="Time Distribution by Task Type")
+
+# Display the pie chart
+pie
+```
