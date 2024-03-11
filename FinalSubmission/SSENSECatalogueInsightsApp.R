@@ -9,7 +9,7 @@ library(wordcloud)
 library(RColorBrewer)
 
 # Load the dataset
-ssense_data <- read.csv("/Users/dylanhong/Desktop/CSC-324/Datset/ssense_dataset.csv")
+ssense_data <- read.csv("ssense_dataset.csv")
 
 # Define UI with shinydashboard
 ui <- dashboardPage(
