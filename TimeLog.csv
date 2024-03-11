@@ -1,18 +1,24 @@
-Date,Time Spent minutes,Task Done
-1/24/24,60,Researching possible datasets on Kaggle
-1/25/24,60,"Found 3 possible datasets, SSENSE dataset seems interesting"
-1/29/24,60,"Look into the SSENSE dataset, made a list of possible interesting questions regarding the dataset. Pushed the questions to Github Repo"
-1/31/24,30,"Prepared to present the ""Discussing your Dataset"" assignment"
-2/5/24,60,Did lab work and made simple scatter plots
-2/8/24,120,Continued with Lab Journal
-2/9/24,180,Formulated questions using the Dataset.
-2/10/24,120,Explored data pivoting using the questions as a guideline
-2/12/24,60,"Prepared to present the ""Describing your Dataset"" Assignment "
-2/16/24,180,Did Rshiny work for my dataset
-2/18/24,120,Decided and worked on WordCloud and Price analysis
-2/19/24,150,Continuing with Rshiny
-2/22/24,120,Continuing with Rshiny
-2/25/24,120,Worked on the catalogue insights app
-2/27/24,120,Worked on the catalogue insights app
-2/29/24,160,Worked on the catalogue insights app
-3/1/24,60,Worked on the catalogue insights app
+Date,TimeSpentminutes,TaskDone,TaskType,,
+1/24/24,60,Researching possible datasets on Kaggle,Preliminary Work,,
+1/25/24,60,"Found 3 possible datasets, SSENSE dataset seems interesting",Preliminary Work,,
+1/29/24,60,"Look into the SSENSE dataset, made a list of possible interesting questions regarding the dataset. Pushed the questions to Github Repo",Preliminary Work,,
+1/31/24,30,"Prepared to present the ""Discussing your Dataset"" assignment",Preliminary Work,,
+2/5/24,60,Did lab work and made simple scatter plots,Preliminary Work,,
+2/8/24,120,Continued with Lab Journal,Preliminary Work,,
+2/9/24,180,Formulated questions using the Dataset.,Preliminary Work,,
+2/10/24,120,Explored data pivoting using the questions as a guideline,Preliminary Work,,
+2/12/24,60,"Prepared to present the ""Describing your Dataset"" Assignment ",Preliminary Work,,
+2/16/24,180,Did Rshiny work for my dataset,App Work,,s
+2/18/24,120,Decided and worked on WordCloud and Price analysis,App Work,,
+2/19/24,150,Continuing with Rshiny,App Work,,
+2/22/24,120,Continuing with Rshiny,App Work,,
+2/25/24,120,Worked on the catalogue insights app,App Work,,
+2/27/24,120,Worked on the catalogue insights app,App Work,,
+2/29/24,160,Worked on the catalogue insights app,App Work,,
+3/1/24,60,Worked on the catalogue insights app,App Work,,
+3/3/24,180,Worked on the catalogue insights app,App Work,,
+3/5/24,180,Worked on the catalogue insights app,App Work,,
+3/7/24,160,Finished the features of app,App Work,,
+3/8/24,120,Worked on Data Descrip.,Submission Work,,
+3/9/24,120,Made the Demo,Submission Work,,
+3/10/24,120,Prepared slides for final presentation,Submission Work,,
